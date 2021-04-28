@@ -19,6 +19,8 @@ const teamsBR = [{title: 'São Paulo FC', uploader: 'Daniel', time: '45s'},
 
 
 let spfc = new Video(teamsBR[0].title, teamsBR[0].uploader, teamsBR[0].time);
+spfc.watch()
+
 let palmeiras = new Video(teamsBR[1].title, teamsBR[1].uploader, teamsBR[1].time);
 let flamengo = new Video(teamsBR[2].title, teamsBR[2].uploader, teamsBR[2].time);
 let fluminense = new Video(teamsBR[3].title, teamsBR[3].uploader, teamsBR[3].time);
